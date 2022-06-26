@@ -38,3 +38,4 @@ function roll_die() {
 //=============================================>  # SCORE BOARD
 
 //=============================================>  # RACE TRACK CODE
+let current_player = 'player one';
