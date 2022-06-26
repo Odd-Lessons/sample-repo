@@ -1,5 +1,16 @@
+//=============================================>  # VARIABLE
+let die_value;
+const die = document.getElementsByClassName('die');
 
-=======
-console.log('This is a test')
-console.log('Test autosave')
->>>>>>> e9b3408fc63276c5e002746305a55c57683c0def
+console.log(die);
+
+//=============================================>  # DIE CODE
+function roll_die() {
+  // Math.random generates a random number from 0 to 1
+  die_value = Math.floor(Math.random() * 6);
+}
+
+die.onClick();
+//=============================================>  # SCORE BOARD
+
+//=============================================>  # RACE TRACK CODE
